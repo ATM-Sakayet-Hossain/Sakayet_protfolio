@@ -2,12 +2,13 @@ import React from 'react'
 import MyService from '../Components/about/MyService';
 import Testimonials from '../Components/about/Testimonials';
 import ChoosePlan from '../Components/about/ChoosePlan';
+import Aboutme from '../Components/about/Aboutme';
 
 const About = () => {
   return (
     <div className='about'>
         <span className='home_animation'></span>
-        {/* <Aboutme/> */}
+        <Aboutme/>
         <MyService />
         <Testimonials />
         <ChoosePlan />
