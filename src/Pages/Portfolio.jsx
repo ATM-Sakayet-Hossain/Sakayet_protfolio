@@ -1,8 +1,8 @@
 import React from 'react'
-import Aboutme from '../Components/About/Aboutme'
-import MyService from '../Components/about/MyService'
-import Testimonials from '../Components/about/Testimonials'
-import ChoosePlan from '../Components/about/ChoosePlan'
+import Aboutme from '../Components/About/Aboutme';
+import MyService from '../Components/about/MyService';
+import Testimonials from '../Components/about/Testimonials';
+import ChoosePlan from '../Components/about/ChoosePlan';
 
 const Portfolio = () => {
   return (

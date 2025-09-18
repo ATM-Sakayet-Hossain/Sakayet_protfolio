@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../Components/Layout/Navbar'
-import Banner from '../Components/Banner'
+import Navbar from '../Components/Layout/Navbar';
+import Banner from '../Components/Banner';
 
 const Home = () => {
   return (

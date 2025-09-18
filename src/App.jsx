@@ -1,10 +1,10 @@
 // import React from 'react'
 // import './index.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Index from './Components/Layout/Index'
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Resume from './Pages/Resume'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Index from './Components/Layout/Index';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Resume from './Pages/Resume';
 
 const App = () => {
   return (
