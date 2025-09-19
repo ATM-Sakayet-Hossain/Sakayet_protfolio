@@ -38,6 +38,37 @@ section{
   border-bottom: 2px solid rgba(255, 255, 255, .08);
   padding-bottom: 29px;
 }
+/* core animated bar */
+.animated-bar{
+  position: relative;
+  display: block;
+  width: 75px;
+  height: 4px;
+  background-color: #009e66;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.animated-bar::before,
+.animated-bar::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #101010;
+  will-change: transform;
+  animation: barAnimation 3s linear infinite;
+}
+
+.animated-bar::before { left: 8px; animation-delay: 0s; }
+.animated-bar::after  { left: 0px; animation-delay: 0s; }
+
+@keyframes barAnimation{
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(75px); }
+}
+/* core animated bar */
+
 /* Common css end */
 
 /* Navbar css start */

@@ -1,19 +1,32 @@
-import React from 'react'
-import Aboutme from '../Components/about/Aboutme';
-import MyService from '../Components/about/MyService';
-import Testimonials from '../Components/about/Testimonials';
-import ChoosePlan from '../Components/about/ChoosePlan';
+import React from "react";
+import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
+import Divider from "../Components/Divider";
 
 const Portfolio = () => {
   return (
-    <div className='about'>
-        <span className='home_animation'></span>
-        <Aboutme/>
-        <MyService />
-        <Testimonials />
-        <ChoosePlan />
-    </div>
-  )
-}
+    <section>
+      <div className="about">
+        <span className="home_animation"></span>
+        <div className="container-1">
+          <div className="row ">
+            <div className="close_button flex justify-end pt-6 text-3xl text-white fixed right-16 top-2">
+              <Link to="/">
+                <IoMdClose />
+              </Link>
+            </div>
+            <h3 className="text-white opacity-50 text-center text-[15px] pt-[7%] mb-[17px] font-poppins">
+              Showcasing some of my best work
+            </h3>
+            <h2 className="text-[46px] font-bold font-poppins text-white leading-[100%] text-center mb-8">
+              Portfolio
+            </h2>
+            <Divider />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-export default Portfolio
+export default Portfolio;

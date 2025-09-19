@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
+import Divider from "../../Components/Divider";
 import {
   FaFacebookSquare,
   FaGithub,
@@ -23,9 +24,10 @@ const Aboutme = () => {
             <h3 className="text-white opacity-50 text-center text-[15px] pt-[7%] mb-[17px] font-poppins">
               Get to know me
             </h3>
-            <h2 className="text-[46px] font-bold font-poppins text-white leading-[100%] text-center mb-[150px]">
+            <h2 className="text-[46px] font-bold font-poppins text-white leading-[100%] text-center mb-8">
               About Me
             </h2>
+            <Divider />
             <div className="flex gap-16 pb-25 flex-col md:flex-row">
               <div className="img">
                 <img

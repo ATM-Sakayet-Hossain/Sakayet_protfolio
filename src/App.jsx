@@ -5,6 +5,8 @@ import Index from './Components/Layout/Index';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Resume from './Pages/Resume';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
 
 const App = () => {
   return (
@@ -15,8 +17,8 @@ const App = () => {
           <Route index element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/Resume' element={<Resume/>}/>
-          <Route path='/portfolio' element={<Resume/>}/>
-          <Route path='/contact' element={<Resume/>}/>
+          <Route path='/portfolio' element={<Portfolio/>}/>
+          <Route path='/contact' element={<Contact />}/>
         </Routes>
       </BrowserRouter>
     </>
