@@ -3,25 +3,25 @@ import React from "react";
 const Education = () => {
   const educationData = [
     {
-      title: "Secondary School Certificate",
-      university: "Maijdee Technical School & College",
-      year: "2013",
+      title: "Bachelor of Science",
+      university: "Presidency University",
+      year: "2019 - 2022",
       description:
-        "General Electrical Technology",
+      "Electrical and Electronic Engineering",
     },
     {
       title: "Diploma Engineering",
       university: "Uttara Engineering College",
       year: "2014 - 2018",
       description:
-        "Electrical Engineering",
+      "Electrical Engineering",
     },
     {
-      title: "Bachelor of Science",
-      university: "Presidency University",
-      year: "2019 - 2022",
+      title: "Secondary School Certificate",
+      university: "Maijdee Technical School & College",
+      year: "2013",
       description:
-        "Electrical and Electronic Engineering",
+        "General Electrical Technology",
     },
   ];
 
